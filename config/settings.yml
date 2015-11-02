@@ -1,0 +1,13 @@
+plugins:
+  firefox_accounts_oauth_server:
+    default: 'https://oauth.accounts.firefox.com'
+    shadowed_by_global: true
+  firefox_accounts_profile_server:
+    default: 'https://profile.accounts.firefox.com'
+    shadowed_by_global: true
+  firefox_accounts_client_id:
+    default: ''
+    shadowed_by_global: true
+  firefox_accounts_client_secret:
+    default: ''
+    shadowed_by_global: true
